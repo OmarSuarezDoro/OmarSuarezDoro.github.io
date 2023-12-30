@@ -1,0 +1,93 @@
+#container_quiz {
+    display: none;
+}
+
+.correct {
+    width: 50px;
+    height: auto;
+}
+
+.incorrect {
+    width: 50px;
+    height: auto;
+
+}
+
+.question {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -100px;
+}
+
+#question_amount {
+    width: 100px;
+    font-size: 28px;
+}
+
+#question_name {
+    position: relative;
+    top: 350px;
+    text-align: center;
+    align-items: center;
+}
+
+#answers_container {
+    position: absolute;
+    bottom:60px;
+    line-height: 50px;
+}
+
+#counter_container {
+    display: block;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+
+#counter_total {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right : 175px;
+    margin : 0 auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+#counter_correct_container {
+    display: block;
+}
+
+#counter_incorrect_container {
+    position: relative;
+    display: block;
+    top: -50px;
+    left: 100px;
+
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.timerDisplay{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background: #ffffff;
+    right : 0px;
+    margin : 0 auto;
+    padding: 20px 0;
+    font-family: 'Nunito' ,monospace;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}

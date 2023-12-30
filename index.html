@@ -1,0 +1,113 @@
+<!-- Html page for quiz question with true or false button -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/menu.css">
+    <link rel="stylesheet" href="stylesheets/quiz.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header text">
+                <span class="close" id="modal-header-close">&times;</span>
+                <h2 id="modal-header-text">Modal Header</h2>
+            </div>
+            <div class="modal-body text-black">
+                <p id="modal-body-text">Some text in the Modal Body</p>
+            </div>
+            <div class="modal-footer text">
+                <h3 id="modal-footer-text">Modal Footer</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="container_menu">
+        <div class="header">
+            <img src="images/logosecreto.jpg" alt="logo" class="logo">
+        </div>
+        <div class="content">
+            <div class="round-box" id="question_amount_picker">
+                <p class="text question-amount-picker-title">Selecciona el número de preguntas:</p>
+                <div class="question-amount-picker-controls">
+                    <input type="number" class="text-black question-amount-picker" min="1" max="113" id="question_amount">
+                </div>
+                <div class="question-amount-picker-controls">
+                    <button class="button" id="question-amount-button" onclick="Quiz.begin()">Aceptar</button>
+                </div>
+                <table class="selector-table">
+                    <tr>
+                        <td>
+                            <div> 
+                                <p class="text">Mostrar contador</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="Quiz.check()">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                        <td>
+                            <div class="dropdown">
+                                <p class="text" id="selected-name">Default</p>
+                                <button class="dropbtn">Asignatura</button>
+                                <div class="dropdown-content">
+                                  <a class="text" id="asignatura_1" href="javascript:Questions.loadQuestions('questions/FIS.json')">FIS</a>
+                                  <a class="text" id="asignatura_2" href="javascript:Questions.loadQuestions('questions/AyEDA.json')">AyEDA</a>
+                                  <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/fisio1920.json')">Fisiología</a>
+                                  <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/histologia.json')">Histología</a>
+                                  <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/topografica.json')">Topográfica</a>
+                                  <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/gpi.json')">GPI</a>
+                                  <a class="text" id="asignatura_4" href="javascript:Questions.loadQuestions('questions/psicologia.json')">Psicología</a>
+                                </div>
+                              </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="container_quiz">
+        <div class="header">
+            <img src="images/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="content">
+            <div class="timerDisplay">
+                00 : 00 : 000
+            </div>
+            <div class="question">
+                <p class="text" id="question_name">Question name</p>
+            </div>
+            <div id="answers_container">
+                <!-- answers will be created here -->
+            </div>
+            <div id="counter_container">
+                <div id="counter_correct_container">
+                    <img src="images/correct.png" alt="correct" class="correct">
+                    <a class="text" id="counter_correct">0</a>
+                </div>
+                <div id="counter_incorrect_container">
+                    <img src="images/incorrect.png" alt="incorrect" class="incorrect">
+                    <a class="text" id="counter_incorrect">0</a>
+                </div>
+                </div> 
+            </div>
+            <div id="counter_total_container">
+                <a class="text" id="counter_total">0</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
