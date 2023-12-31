@@ -4655,6 +4655,42 @@
         }
       ],
       "answerIndex": 0
+    },
+    {
+      "name": "Los procesos de dirección de proyectos, en la práctica...",
+      "answers": [
+        {
+          "name": "Se organizan de la misma manera para un área de aplicación."
+        },
+        {
+          "name": "Se presentan como elementos discretos con interfaces bien definidas."
+        },
+        {
+          "name": "Se superponen e interactúan entre ellos."
+        },
+        {
+          "name": "Ninguna de las otras es cierta."
+        }
+      ],
+      "answerIndex": 1
+    },
+    {
+      "name": "Los interesados de un proyecto...",
+      "answers": [
+        {
+          "name": "Son los patrocinadores del proyecto"
+        },
+        {
+          "name": "Son los destinatarios del producto del proyecto"
+        },
+        {
+          "name": "Ninguna"
+        },
+        {
+          "name": "Pueden tener influencia negativa o positiva en el proyecto"
+        }
+      ],
+      "answerIndex": 3
     }
     
   ]
