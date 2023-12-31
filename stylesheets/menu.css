@@ -53,10 +53,12 @@ body {
 .logo {
     position: absolute; 
     top: 0; 
-    left: calc(50% - 100px); 
-    width: 200px;
-    height: auto;
+    left: calc(45% - 100px); 
+    width: 400px;
+    height: 300px;
     margin: 0 auto;
+    border-color: #000;
+    border-width: 2px;
 }
 
 /* The switch - the box around the slider */

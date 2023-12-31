@@ -1675,7 +1675,7 @@
           "name": "Comienzo a Comienzo."
         }
       ],
-      "answerIndex": 1
+      "answerIndex": 2
     },
     {
       "name": "¿Cuál de los grupos de procesos contiene el desarrollo del ACP y la identificación de los interesados? ",
@@ -4355,6 +4355,307 @@
         }
       ],
       "answerIndex": 1
+    },
+    {
+      "name": "¿Cuál o cuáles de las siguientes opciones no es /son metodologías de desarrollo?",
+      "answers": [
+        {
+          "name": "Lenguaje unificado de modelado"
+        },
+        {
+          "name": "Ciclo de vida clásico"
+        },
+        {
+          "name": "Proceso unificado"
+        },
+        {
+          "name": "Métrica"
+        }
+      ],
+      "answerIndex": 1
+    },
+    {
+      "name": "La guía PMBOK",
+      "answers": [
+        {
+          "name": "Contiene todas las buenas practicas para la dirección de proyectos"
+        },
+        {
+          "name": "Ninguna de las otras es cierta"
+        },
+        {
+          "name": "Contiene una descripción detallada de las capacidades de proyectos"
+        },
+        {
+          "name": "Contiene las buenas prácticas que deben ser aplicadas siempre a todos los proyectos."
+        }
+      ],
+      "answerIndex": 0
+    },
+    {
+      "name": "Un método...",
+      "answers": [
+        {
+          "name": "Es un procedimiento que define tareas para la viabilidad del sistema"
+        },
+        {
+          "name": "Es el conjunto de diagramas de actividad del sistema de información"
+        },
+        {
+          "name": "Define las reglas para las transformaciones internas de las actividades de un proceso"
+        },
+        {
+          "name": "Es el conjunto de pasos para desarrollar los diagramas de casos de uso y de clases"
+        }
+      ],
+      "answerIndex": 0
+    },
+    {
+      "name": "¿Cuál de las siguientes afirmaciones respecto a la estimación por analogía NO es cierta?",
+      "answers": [
+        {
+          "name": "Se suele usar en las fases tempranas del proyecto."
+        },
+        {
+          "name": "Usa el coste real de proyectos anteriores similares."
+        },
+        {
+          "name": "Utiliza el juicio experto."
+        },
+        {
+          "name": "Se usa para estimar el coste de las actividades del proyecto."
+        }
+      ],
+      "answerIndex": 1
+    },
+    {
+      "name": "¿En un proyecto con programación hacia atrás, es necesario especificar la fecha de inicio del proyecto?",
+      "answers": [
+        {
+          "name": "Verdadero."
+        },
+        {
+          "name": "Falso."
+        }
+      ],
+      "answerIndex": 1
+    },
+    {
+      "name": "¿Cuál es la fórmula de la Variación de Coste?",
+      "answers": [
+        {
+          "name": "PV/AC"
+        },
+        {
+          "name": "EV-PC"
+        },
+        {
+          "name": "EV-AC"
+        },
+        {
+          "name": "AC-EV"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "¿Cuál es la fórmula de la Variación del Cronograma?",
+      "answers": [
+        {
+          "name": "EV/PV"
+        },
+        {
+          "name": "BAC-PV"
+        },
+        {
+          "name": "EV-PV"
+        },
+        {
+          "name": "PV-EV"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "Para un proyecto con un presupuesto de desarrollo (BAC) de 3.000.000 euros, una duración total del proyecto de 24 meses, ¿cuál es el índice de desempeño del Coste a los 2 años del proyecto si su Valor Ganado = 2.000.000 euros y un Coste Actual de 4.000.0000 euros?",
+      "answers": [
+        {
+          "name": "2"
+        },
+        {
+          "name": "-0.5"
+        },
+        {
+          "name": "0.5"
+        },
+        {
+          "name": "-2"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "Para un proyecto con un presupuesto de desarrollo (BAC) de 2.000.0000 euros, una duración total del proyecto de 24 meses, ¿cuál es la Variación del Cronograma a los 2 años del proyecto si su Valor Ganado = 1.800.000 euros?",
+      "answers": [
+        {
+          "name": "-200.000 euros"
+        },
+        {
+          "name": "-1.800.000 euros"
+        },
+        {
+          "name": "200.000 euros"
+        },
+        {
+          "name": "2.000.000 euros"
+        }
+      ],
+      "answerIndex": 0
+    },
+    {
+      "name": "¿Cuál es la fórmula del índice de desempeño del cronograma?",
+      "answers": [
+        {
+          "name": "EV-PV"
+        },
+        {
+          "name": "PV/EV"
+        },
+        {
+          "name": "EV/PV"
+        },
+        {
+          "name": "PV-EV"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "¿Cuál es la fórmula del Valor Ganado?",
+      "answers": [
+        {
+          "name": "PV * %TrabajoCompletado"
+        },
+        {
+          "name": "BAC * %TrabajoCompletado"
+        },
+        {
+          "name": "BAC * %TrabajoPlanificado"
+        },
+        {
+          "name": "PV * %TrabajoPlanificado"
+        }
+      ],
+      "answerIndex": 1
+    },
+    {
+      "name": "¿A cuánto asciende la Variación del Coste si nuestro Valor Ganado asciende a1.000.000 euros, el Valor Planificado a 2.000.000 euros y el Coste Actual a 4.000.000 euros?",
+      "answers": [
+        {
+          "name": "2.000.000 euros"
+        },
+        {
+          "name": "-2.000.000 euros"
+        },
+        {
+          "name": "-3.000.000 euros"
+        },
+        {
+          "name": "3.000.000 euros"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "¿Cuál es la fórmula del Valor Planificado?",
+      "answers": [
+        {
+          "name": "EV * %TiempoPlanificado"
+        },
+        {
+          "name": "EV * %TiempoTranscurrido"
+        },
+        {
+          "name": "BAC * %TiempoTranscurrido"
+        },
+        {
+          "name": "BAC * %TiempoPlanifcado"
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "¿Cómo se comporta el Índice de Desempeño del Coste?",
+      "answers": [
+        {
+          "name": "Si es menor que 1 tengo sobrecoste del presupuesto."
+        },
+        {
+          "name": "Si es mayor que 1 tengo sobrecoste del presupuesto."
+        },
+        {
+          "name": "Ninguna es correcta."
+        },
+        {
+          "name": "Si es menor que 0 tengo sobrecostes del presupuesto."
+        }
+      ],
+      "answerIndex": 0
+    },
+    {
+      "name": "¿Cómo se comporta el Índice de Desempeño del Coste?",
+      "answers": [
+        {
+          "name": "Si es mayor que 1 hay sobrecoste con respecto al presupuesto inicial."
+        },
+        {
+          "name": "Si es mayor que 0 hay sobrecoste con respecto al presupuesto inicial."
+        },
+        {
+          "name": "Si es menor que 0 hay superávit con respecto al presupuesto inicial."
+        },
+        {
+          "name": "Si es menor que 1 hay sobrecoste con respecto al presupuesto inicial."
+        }
+      ],
+      "answerIndex": 3
+    },
+    {
+      "name": "¿Cuál de las siguientes es el mejor ejemplo de una organización basada en proyectos?",
+      "answers": [
+        {
+          "name": "Ninguna."
+        },
+        {
+          "name": "Universidad."
+        },
+        {
+          "name": "Empresa de software."
+        },
+        {
+          "name": "Administración. "
+        }
+      ],
+      "answerIndex": 2
+    },
+    {
+      "name": "Uno de los miembros del equipo ha descubierto un defecto en un entregable y recomienda que sea reparado. ¿Cuál de las siguientes situaciones NO es cierta?:",
+      "answers": [
+        {
+          "name": "Debes actualizar el ETP para documentar las tareas relativas a corregir el defecto"
+        },
+        {
+          "name": "Tu proyecto se encuentra en el grupo de procesos de monitorización y control"
+        },
+        {
+          "name": "El ACP te autoriza a realizar el proyecto"
+        },
+        {
+          "name": "La reparación del defecto debe aprobarse antes de que el entregable sea reparado"
+        }
+      ],
+      "answerIndex": 0
     }
+    
   ]
 }
