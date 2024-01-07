@@ -190,7 +190,7 @@
           "name": "EDT."
         }
       ],
-      "answerIndex": 3
+      "answerIndex": 0
     },
     {
       "name": "Eres el director de un proyecto de ingeniería agrícola. Tu patrocinador quiere saber a quién esta asignando  un paquete de trabajo y qué trabajo conlleva ese paquete de trabajo. ¿Qué documento podemos decirle que  analice? ",
@@ -208,7 +208,7 @@
           "name": "Enunciado del alcance. "
         }
       ],
-      "answerIndex": 2
+      "answerIndex": 0
     },
     {
       "name": "Eres el director de un proyecto software y un miembro de tu equipo te presenta una propuesta para ir más  rápido y ahorrar un 25% del proyecto. ¿Cuál es la mejor forma que tienes de proceder? ",
@@ -2371,7 +2371,7 @@
           "name": "Procesos de la gestión de proyectos "
         }
       ],
-      "answerIndex": 2
+      "answerIndex": 0
     },
     {
       "name": "¿Cuál es la subdivisión correcta?  ",
@@ -2497,7 +2497,7 @@
           "name": "Ninguna de las anteriores es cierta "
         }
       ],
-      "answerIndex": 0
+      "answerIndex": 3
     },
     {
       "name": "En la fase de construcción de UP:  ",
@@ -3127,7 +3127,7 @@
           "name": "El ciclo de vida del proyecto, las áreas de conocimientos y los grupos de dirección de proyectos. "
         }
       ],
-      "answerIndex": 2
+      "answerIndex": 3
     },
     {
       "name": "Los interesados de un proyecto:  ",
@@ -3610,7 +3610,7 @@
           "name": "Presupuesto "
         }
       ],
-      "answerIndex": 0
+      "answerIndex": 2
     },
     {
       "name": "¿Cuál es el objetivo del grupo de procesos de seguimiento y control?  ",
